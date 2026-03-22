@@ -1,6 +1,7 @@
+from utils import saudacao
+
 def main():
-    print("Projeto funcionando.")
+    print(saudacao('Paulo'))
 
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
